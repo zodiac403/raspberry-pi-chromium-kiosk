@@ -1,0 +1,7 @@
+
+#### ---- raspberry-pi-chromium-kiosk ---- start ----
+if [ -z $DISPLAY ] && [ $(tty) = /dev/tty1 ]
+then
+  startx
+fi
+#### ---- raspberry-pi-chromium-kiosk ---- end ----
