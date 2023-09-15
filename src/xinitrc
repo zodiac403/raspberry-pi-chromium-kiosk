@@ -3,12 +3,9 @@ xset -dpms
 xset s off
 xset s noblank
 
-unclutter
-
 chromium-browser \
   --window-position=0,0 \
   --start-fullscreen \
-  --kiosk \
   --noerrdialogs \
   --disable-translate \
   --no-first-run \
