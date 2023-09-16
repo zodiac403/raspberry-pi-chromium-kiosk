@@ -3,7 +3,7 @@ xset -dpms
 xset s off
 xset s noblank
 
-chromium-browser \
+unclutter & chromium-browser \
   --window-position=0,0 \
   --start-fullscreen \
   --noerrdialogs \
