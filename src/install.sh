@@ -9,6 +9,11 @@ sudo apt-get install --no-install-recommends -y \
   xserver-xorg-input-all \
   xserver-xorg-video-all
 
+echo "configure firewall (block incoming traffic on all ports)..."
+sudo iptables --policy INPUT DROP
+sudo iptables --policy FORWARD DROP
+sudo iptables --policy OUTPUT ACCEPT
+
 echo "copy XServer init configuration..."
 cp xinitrc ~/.xinitrc
 
