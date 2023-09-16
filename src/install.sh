@@ -3,6 +3,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install --no-install-recommends -y \
   chromium-browser \
+  unclutter \
   x11-xserver-utils \
   xinit \
   xserver-xorg-core \
