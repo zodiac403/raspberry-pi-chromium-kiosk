@@ -9,6 +9,15 @@ Based on this article: <https://blog.r0b.io/post/minimal-rpi-kiosk/>
 - Raspian operating system (download): <https://www.raspberrypi.com/software/operating-systems/>
 - Raspberry pi config tool CLI: <https://www.raspberrypi.com/documentation/computers/configuration.html#list-of-options26>
 
+## Prerequisites
+
+- Raspberry Pi
+- SD card with OS installed (see above)
+- Initial OS configuration
+  - User name + password
+  - Internet: LAN or wifi (country, SSID, and password)
+- Git installed: `sudo apt-get install git` 
+
 ## Usage
 
 ```sh
