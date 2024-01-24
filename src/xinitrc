@@ -7,6 +7,7 @@ unclutter & chromium-browser \
   --window-position=0,0 \
   --start-fullscreen \
   --noerrdialogs \
+  --hide-crash-restore-bubble \
   --disable-translate \
   --no-first-run \
   --fast \
