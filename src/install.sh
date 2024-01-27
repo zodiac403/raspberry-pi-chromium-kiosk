@@ -3,6 +3,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install --no-install-recommends -y \
   chromium-browser \
+  iptables \
   unattended-upgrades \
   unclutter \
   x11-xserver-utils \
