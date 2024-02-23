@@ -22,6 +22,14 @@ Support for Raspberry Pi 3 and Raspberry Pi 5
 
 - Disable Chromium restore tabs bubble
 
-## [1.0.0] - 2023-10-12
+## [1.1.0] - 2023-10-12
+
+Configure firewall
+
+### Added
+
+- Firewall configuration
+
+## [1.0.0] - 2023-09-24
 
 Initial release
