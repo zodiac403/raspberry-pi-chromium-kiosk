@@ -16,13 +16,24 @@ Based on this article: <https://blog.r0b.io/post/minimal-rpi-kiosk/>
 - Initial OS configuration
   - User name + password
   - Internet: LAN or wifi (country, SSID, and password)
-- Git installed: `sudo apt-get install git` 
+- Git installed: `sudo apt-get install git`
 
 ## Usage
 
+### Raspberry Pi 3 / XServer
+
 ```sh
 git clone URL
-src/install.sh
+cd raspi-3-xserver
+install.sh
+```
+
+### Raspberry Pi 5 / Wayfire
+
+```sh
+git clone URL
+cd raspi-5-wayfire
+install.sh
 ```
 
 ## Recommended Chromium Extensions

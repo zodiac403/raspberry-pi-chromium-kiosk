@@ -1,5 +1,7 @@
 # Reboot via Cron
 
+_Optional:_ Configure cron job for reboot.
+
 Check reboot command location
 
     whereis reboot

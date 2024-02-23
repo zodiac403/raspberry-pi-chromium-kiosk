@@ -1,0 +1,7 @@
+
+#### ---- raspberry-pi-chromium-kiosk ---- start ----
+
+[autostart]
+1 = ~/start-chromium.sh
+
+#### ---- raspberry-pi-chromium-kiosk ---- start ----
