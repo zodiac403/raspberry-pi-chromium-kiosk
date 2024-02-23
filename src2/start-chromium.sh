@@ -1,11 +1,4 @@
 chromium-browser \
   --noerrdialogs \
   --hide-crash-restore-bubble \
-  --disable-translate \
-  --no-first-run \
-  --fast \
-  --fast-start \
-  --disable-infobars \
-  --disable-features=TranslateUI \
-  --overscroll-history-navigation=0 \
-  --disable-pinch
+  --no-first-run
