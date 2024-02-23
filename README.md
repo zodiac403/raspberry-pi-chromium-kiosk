@@ -15,7 +15,7 @@ Based on this article: <https://blog.r0b.io/post/minimal-rpi-kiosk/>
 - SD card with OS installed (see above)
 - Initial OS configuration
   - User name + password
-  - Internet: LAN or wifi (country, SSID, and password)
+  - Internet: LAN or wifi (run `sudo raspi-config` to configure country, SSID, and password)
 - Git installed: `sudo apt-get install git`
 
 ## Usage
