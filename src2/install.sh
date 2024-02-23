@@ -17,4 +17,9 @@ sudo iptables --policy OUTPUT ACCEPT
 sudo iptables --list
 
 echo ""
+echo "configure autostart"
+cp start-chromium.sh ~
+cat wayfire.ini_snippet >> ~/.config/wayfire.ini
+
+echo ""
 echo "success"
